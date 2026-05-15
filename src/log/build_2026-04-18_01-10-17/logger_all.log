@@ -1,0 +1,339 @@
+[0.078s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'crab_detector']
+[0.078s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['crab_detector'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fed45a958e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fed459be5a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fed459be5a0>>)
+[0.102s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.102s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.102s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.102s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.102s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.102s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.102s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/workspace/src'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extension 'ignore'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extension 'ignore_ament_install'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extensions ['colcon_pkg']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extension 'colcon_pkg'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extensions ['colcon_meta']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extension 'colcon_meta'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extensions ['ros']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extension 'ros'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extensions ['cmake', 'python']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extension 'cmake'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extension 'python'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extensions ['python_setup_py']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection) by extension 'python_setup_py'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extension 'ignore'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extension 'ignore_ament_install'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extensions ['colcon_pkg']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extension 'colcon_pkg'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extensions ['colcon_meta']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extension 'colcon_meta'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extensions ['ros']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extension 'ros'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extensions ['cmake', 'python']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extension 'cmake'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extension 'python'
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extensions ['python_setup_py']
+[0.119s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws) by extension 'python_setup_py'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extension 'ignore'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extension 'ignore_ament_install'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extensions ['colcon_pkg']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extension 'colcon_pkg'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extensions ['colcon_meta']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extension 'colcon_meta'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extensions ['ros']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extension 'ros'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extensions ['cmake', 'python']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extension 'cmake'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extension 'python'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extensions ['python_setup_py']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/ros2) by extension 'python_setup_py'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extension 'ignore'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extension 'ignore_ament_install'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extensions ['colcon_pkg']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extension 'colcon_pkg'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extensions ['colcon_meta']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extension 'colcon_meta'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extensions ['ros']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extension 'ros'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extensions ['cmake', 'python']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extension 'cmake'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extension 'python'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extensions ['python_setup_py']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src) by extension 'python_setup_py'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extension 'ignore'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extension 'ignore_ament_install'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extensions ['colcon_pkg']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extension 'colcon_pkg'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extensions ['colcon_meta']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extension 'colcon_meta'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extensions ['ros']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extension 'ros'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extensions ['cmake', 'python']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extension 'cmake'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extension 'python'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extensions ['python_setup_py']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/green_crab_ws/src/GroundingDINO) by extension 'python_setup_py'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extension 'ignore'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extension 'ignore_ament_install'
+[0.120s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extensions ['colcon_pkg']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extension 'colcon_pkg'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extensions ['colcon_meta']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extension 'colcon_meta'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extensions ['ros']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extension 'ros'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extensions ['cmake', 'python']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extension 'cmake'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extension 'python'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extensions ['python_setup_py']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs) by extension 'python_setup_py'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extension 'ignore'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extension 'ignore_ament_install'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extensions ['colcon_pkg']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extension 'colcon_pkg'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extensions ['colcon_meta']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extension 'colcon_meta'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extensions ['ros']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extension 'ros'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extensions ['cmake', 'python']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extension 'cmake'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extension 'python'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extensions ['python_setup_py']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect) by extension 'python_setup_py'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extension 'ignore'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extension 'ignore_ament_install'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extensions ['colcon_pkg']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extension 'colcon_pkg'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extensions ['colcon_meta']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extension 'colcon_meta'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extensions ['ros']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extension 'ros'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extensions ['cmake', 'python']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extension 'cmake'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extension 'python'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extensions ['python_setup_py']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs) by extension 'python_setup_py'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extension 'ignore'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extension 'ignore_ament_install'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extensions ['colcon_pkg']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extension 'colcon_pkg'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extensions ['colcon_meta']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extension 'colcon_meta'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extensions ['ros']
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extension 'ros'
+[0.121s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extensions ['cmake', 'python']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extension 'cmake'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extension 'python'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extensions ['python_setup_py']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage1) by extension 'python_setup_py'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extension 'ignore'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extension 'ignore_ament_install'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extensions ['colcon_pkg']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extension 'colcon_pkg'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extensions ['colcon_meta']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extension 'colcon_meta'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extensions ['ros']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extension 'ros'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extensions ['cmake', 'python']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extension 'cmake'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extension 'python'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extensions ['python_setup_py']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage12) by extension 'python_setup_py'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extension 'ignore'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extension 'ignore_ament_install'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extensions ['colcon_pkg']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extension 'colcon_pkg'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extensions ['colcon_meta']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extension 'colcon_meta'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extensions ['ros']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extension 'ros'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extensions ['cmake', 'python']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extension 'cmake'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extension 'python'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extensions ['python_setup_py']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage13) by extension 'python_setup_py'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extension 'ignore'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extension 'ignore_ament_install'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extensions ['colcon_pkg']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extension 'colcon_pkg'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extensions ['colcon_meta']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extension 'colcon_meta'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extensions ['ros']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extension 'ros'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extensions ['cmake', 'python']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extension 'cmake'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extension 'python'
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extensions ['python_setup_py']
+[0.122s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage2) by extension 'python_setup_py'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extension 'ignore'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extension 'ignore_ament_install'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extensions ['colcon_pkg']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extension 'colcon_pkg'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extensions ['colcon_meta']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extension 'colcon_meta'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extensions ['ros']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extension 'ros'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extensions ['cmake', 'python']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extension 'cmake'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extension 'python'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extensions ['python_setup_py']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage22) by extension 'python_setup_py'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extension 'ignore'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extension 'ignore_ament_install'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extensions ['colcon_pkg']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extension 'colcon_pkg'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extensions ['colcon_meta']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extension 'colcon_meta'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extensions ['ros']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extension 'ros'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extensions ['cmake', 'python']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extension 'cmake'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extension 'python'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extensions ['python_setup_py']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(EuropeanGreenCrabDetection/runs/detect/runs/egc_detector_stage23) by extension 'python_setup_py'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(crab_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(crab_detector) by extension 'ignore'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(crab_detector) by extension 'ignore_ament_install'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(crab_detector) by extensions ['colcon_pkg']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(crab_detector) by extension 'colcon_pkg'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(crab_detector) by extensions ['colcon_meta']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(crab_detector) by extension 'colcon_meta'
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(crab_detector) by extensions ['ros']
+[0.123s] colcon.colcon_core.package_identification Level 1 _identify(crab_detector) by extension 'ros'
+[0.125s] colcon.colcon_core.package_identification DEBUG Package 'crab_detector' with type 'ros.ament_python' and name 'crab_detector'
+[0.125s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[0.125s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[0.125s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[0.125s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[0.125s] colcon.colcon_core.package_identification Level 1 _identify(post_util) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(post_util) by extension 'ignore'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(post_util) by extension 'ignore_ament_install'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(post_util) by extensions ['colcon_pkg']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(post_util) by extension 'colcon_pkg'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(post_util) by extensions ['colcon_meta']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(post_util) by extension 'colcon_meta'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(post_util) by extensions ['ros']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(post_util) by extension 'ros'
+[0.126s] colcon.colcon_core.package_identification DEBUG Package 'post_util' with type 'ros.ament_python' and name 'post_util'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(stereo_processor) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(stereo_processor) by extension 'ignore'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(stereo_processor) by extension 'ignore_ament_install'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(stereo_processor) by extensions ['colcon_pkg']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(stereo_processor) by extension 'colcon_pkg'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(stereo_processor) by extensions ['colcon_meta']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(stereo_processor) by extension 'colcon_meta'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(stereo_processor) by extensions ['ros']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(stereo_processor) by extension 'ros'
+[0.126s] colcon.colcon_core.package_identification DEBUG Package 'stereo_processor' with type 'ros.ament_python' and name 'stereo_processor'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(zed_streamer) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(zed_streamer) by extension 'ignore'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(zed_streamer) by extension 'ignore_ament_install'
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(zed_streamer) by extensions ['colcon_pkg']
+[0.126s] colcon.colcon_core.package_identification Level 1 _identify(zed_streamer) by extension 'colcon_pkg'
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(zed_streamer) by extensions ['colcon_meta']
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(zed_streamer) by extension 'colcon_meta'
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(zed_streamer) by extensions ['ros']
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(zed_streamer) by extension 'ros'
+[0.127s] colcon.colcon_core.package_identification DEBUG Package 'zed_streamer' with type 'ros.ament_python' and name 'zed_streamer'
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[0.138s] colcon.colcon_core.package_selection INFO Skipping not selected package 'post_util' in 'post_util'
+[0.138s] colcon.colcon_core.package_selection INFO Skipping not selected package 'stereo_processor' in 'stereo_processor'
+[0.138s] colcon.colcon_core.package_selection INFO Skipping not selected package 'zed_streamer' in 'zed_streamer'
+[0.138s] colcon.colcon_core.verb Level 5 set package 'crab_detector' build argument 'cmake_args' from command line to 'None'
+[0.138s] colcon.colcon_core.verb Level 5 set package 'crab_detector' build argument 'cmake_target' from command line to 'None'
+[0.138s] colcon.colcon_core.verb Level 5 set package 'crab_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] colcon.colcon_core.verb Level 5 set package 'crab_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] colcon.colcon_core.verb Level 5 set package 'crab_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] colcon.colcon_core.verb Level 5 set package 'crab_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] colcon.colcon_core.verb Level 5 set package 'crab_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] colcon.colcon_core.verb Level 5 set package 'crab_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] colcon.colcon_core.verb Level 5 set package 'crab_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] colcon.colcon_core.verb DEBUG Building package 'crab_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/src/build/crab_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/src/install/crab_detector', 'merge_install': False, 'path': '/workspace/src/crab_detector', 'symlink_install': False, 'test_result_base': None}
+[0.138s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[0.139s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[0.139s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/workspace/src/crab_detector' with build type 'ament_python'
+[0.139s] colcon.colcon_core.shell Level 1 create_environment_hook('crab_detector', 'ament_prefix_path')
+[0.141s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.141s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/src/install/crab_detector/share/crab_detector/hook/ament_prefix_path.ps1'
+[0.141s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/src/install/crab_detector/share/crab_detector/hook/ament_prefix_path.dsv'
+[0.141s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/src/install/crab_detector/share/crab_detector/hook/ament_prefix_path.sh'
+[0.142s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.142s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.246s] colcon.colcon_core.task.python.build INFO Building Python package in '/workspace/src/crab_detector'
+[0.246s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.941s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/src/crab_detector': PYTHONPATH=/workspace/src/build/crab_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/crab_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/crab_detector build --build-base /workspace/src/build/crab_detector/build install --record /workspace/src/build/crab_detector/install.log --single-version-externally-managed install_data
+[2.070s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/src/crab_detector' returned '0': PYTHONPATH=/workspace/src/build/crab_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/crab_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/crab_detector build --build-base /workspace/src/build/crab_detector/build install --record /workspace/src/build/crab_detector/install.log --single-version-externally-managed install_data
+[2.075s] colcon.colcon_core.environment Level 1 checking '/workspace/src/install/crab_detector' for CMake module files
+[2.075s] colcon.colcon_core.environment Level 1 checking '/workspace/src/install/crab_detector' for CMake config files
+[2.076s] colcon.colcon_core.environment Level 1 checking '/workspace/src/install/crab_detector/lib'
+[2.076s] colcon.colcon_core.environment Level 1 checking '/workspace/src/install/crab_detector/bin'
+[2.076s] colcon.colcon_core.environment Level 1 checking '/workspace/src/install/crab_detector/lib/pkgconfig/crab_detector.pc'
+[2.076s] colcon.colcon_core.environment Level 1 checking '/workspace/src/install/crab_detector/lib/python3.12/site-packages'
+[2.076s] colcon.colcon_core.shell Level 1 create_environment_hook('crab_detector', 'pythonpath')
+[2.076s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/src/install/crab_detector/share/crab_detector/hook/pythonpath.ps1'
+[2.077s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/src/install/crab_detector/share/crab_detector/hook/pythonpath.dsv'
+[2.077s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/src/install/crab_detector/share/crab_detector/hook/pythonpath.sh'
+[2.078s] colcon.colcon_core.environment Level 1 checking '/workspace/src/install/crab_detector/bin'
+[2.078s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(crab_detector)
+[2.078s] colcon.colcon_core.shell INFO Creating package script '/workspace/src/install/crab_detector/share/crab_detector/package.ps1'
+[2.079s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/src/install/crab_detector/share/crab_detector/package.dsv'
+[2.079s] colcon.colcon_core.shell INFO Creating package script '/workspace/src/install/crab_detector/share/crab_detector/package.sh'
+[2.080s] colcon.colcon_core.shell INFO Creating package script '/workspace/src/install/crab_detector/share/crab_detector/package.bash'
+[2.080s] colcon.colcon_core.shell INFO Creating package script '/workspace/src/install/crab_detector/share/crab_detector/package.zsh'
+[2.081s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/src/install/crab_detector/share/colcon-core/packages/crab_detector)
+[2.081s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[2.082s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[2.082s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[2.082s] colcon.colcon_core.event_reactor DEBUG joining thread
+[2.094s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.094s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.094s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.094s] colcon.colcon_notification.desktop_notification INFO Sending desktop notification using 'notify2'
+[2.101s] colcon.colcon_notification.desktop_notification.notify2 DEBUG Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.102s] colcon.colcon_core.event_reactor DEBUG joined thread
+[2.105s] colcon.colcon_core.shell INFO Creating prefix script '/workspace/src/install/local_setup.ps1'
+[2.107s] colcon.colcon_core.shell INFO Creating prefix util module '/workspace/src/install/_local_setup_util_ps1.py'
+[2.108s] colcon.colcon_core.shell INFO Creating prefix chain script '/workspace/src/install/setup.ps1'
+[2.109s] colcon.colcon_core.shell INFO Creating prefix script '/workspace/src/install/local_setup.sh'
+[2.110s] colcon.colcon_core.shell INFO Creating prefix util module '/workspace/src/install/_local_setup_util_sh.py'
+[2.111s] colcon.colcon_core.shell INFO Creating prefix chain script '/workspace/src/install/setup.sh'
+[2.112s] colcon.colcon_core.shell INFO Creating prefix script '/workspace/src/install/local_setup.bash'
+[2.112s] colcon.colcon_core.shell INFO Creating prefix chain script '/workspace/src/install/setup.bash'
+[2.113s] colcon.colcon_core.shell INFO Creating prefix script '/workspace/src/install/local_setup.zsh'
+[2.114s] colcon.colcon_core.shell INFO Creating prefix chain script '/workspace/src/install/setup.zsh'

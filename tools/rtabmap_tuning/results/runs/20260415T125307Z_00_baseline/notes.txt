@@ -1,0 +1,15 @@
+Run: 20260415T125307Z_00_baseline
+Preset: ./presets/00_baseline.yaml
+Bag: ./bags/zed
+
+What improved?
+- 
+
+What got worse?
+- 
+
+Where did it fail?
+- 
+
+What should be tested next?
+- 

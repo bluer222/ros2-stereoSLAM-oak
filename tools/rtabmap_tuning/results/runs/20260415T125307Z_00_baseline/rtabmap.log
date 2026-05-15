@@ -1,0 +1,353 @@
+[37;1m2026-04-15 12:53:10.096 [31;1m[[37;1mTRANSPORT_UDPV4[31;1m Error] [37mAll whitelist interfaces were filtered out[34;1m -> Function [36mUDPv4Transport[m
+[37;1m2026-04-15 12:53:10.101 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mNo unicast locators to create unique flows[34;1m -> Function [36mcreateAndAssociateReceiverswithEndpoint[m
+[37;1m2026-04-15 12:53:10.101 [31;1m[[37;1mDATA_READER[31;1m Error] [37mProblem creating associated Reader[34;1m -> Function [36menable[m
+[INFO] [1776257590.111364727] [rtabmap.rtabmap]: rtabmap(maps): latch                      = true
+[INFO] [1776257590.111458049] [rtabmap.rtabmap]: rtabmap(maps): map_filter_radius          = 0.000000
+[INFO] [1776257590.111467314] [rtabmap.rtabmap]: rtabmap(maps): map_filter_angle           = 30.000000
+[INFO] [1776257590.111470546] [rtabmap.rtabmap]: rtabmap(maps): map_cleanup                = true
+[INFO] [1776257590.111473074] [rtabmap.rtabmap]: rtabmap(maps): map_always_update          = false
+[INFO] [1776257590.111474915] [rtabmap.rtabmap]: rtabmap(maps): map_empty_ray_tracing      = true
+[INFO] [1776257590.111476718] [rtabmap.rtabmap]: rtabmap(maps): cloud_output_voxelized     = true
+[INFO] [1776257590.111478520] [rtabmap.rtabmap]: rtabmap(maps): cloud_subtract_filtering   = false
+[INFO] [1776257590.111480292] [rtabmap.rtabmap]: rtabmap(maps): cloud_subtract_filtering_min_neighbors = 2
+[INFO] [1776257590.111487909] [rtabmap.rtabmap]: rtabmap(maps): octomap_tree_depth         = 16
+[INFO] [1776257590.121015278] [rtabmap.rtabmap]: rtabmap: frame_id      = base_link
+[INFO] [1776257590.121038707] [rtabmap.rtabmap]: rtabmap: map_frame_id  = map
+[INFO] [1776257590.121041475] [rtabmap.rtabmap]: rtabmap: log_to_rosout_level  = 4
+[INFO] [1776257590.121045616] [rtabmap.rtabmap]: rtabmap: initial_pose  = 
+[INFO] [1776257590.121047770] [rtabmap.rtabmap]: rtabmap: use_action_for_goal  = false
+[INFO] [1776257590.121049721] [rtabmap.rtabmap]: rtabmap: tf_delay      = 0.050000
+[INFO] [1776257590.121053723] [rtabmap.rtabmap]: rtabmap: tf_tolerance  = 0.100000
+[INFO] [1776257590.121056101] [rtabmap.rtabmap]: rtabmap: odom_sensor_sync   = false
+[INFO] [1776257590.121058056] [rtabmap.rtabmap]: rtabmap: pub_loc_pose_only_when_localizing = false
+[INFO] [1776257590.121060088] [rtabmap.rtabmap]: rtabmap: wait_for_transform = 0.200000
+[INFO] [1776257590.121062184] [rtabmap.rtabmap]: rtabmap: gen_scan  = false
+[INFO] [1776257590.121064122] [rtabmap.rtabmap]: rtabmap: gen_depth  = false
+[INFO] [1776257590.204741154] [rtabmap.rtabmap]: RTAB-Map detection rate = 1.000000 Hz
+[INFO] [1776257590.204795752] [rtabmap.rtabmap]: rtabmap: Using database from "/workspace/tools/rtabmap_tuning/results/runs/20260415T125307Z_00_baseline/rtabmap.db" (0 MB).
+[INFO] [1776257590.213164924] [rtabmap.rtabmap]: rtabmap: Database version = "0.22.1".
+[INFO] [1776257590.213182362] [rtabmap.rtabmap]: rtabmap: SLAM mode (Mem/IncrementalMemory=true)
+[INFO] [1776257590.222055783] [rtabmap.rtabmap]: Setup callbacks
+[INFO] [1776257590.222108329] [rtabmap.rtabmap]: rtabmap: subscribe_depth = true
+[INFO] [1776257590.222112055] [rtabmap.rtabmap]: rtabmap: subscribe_rgb = true
+[INFO] [1776257590.222114632] [rtabmap.rtabmap]: rtabmap: subscribe_stereo = false
+[INFO] [1776257590.222116634] [rtabmap.rtabmap]: rtabmap: subscribe_rgbd = false (rgbd_cameras=1)
+[INFO] [1776257590.222118960] [rtabmap.rtabmap]: rtabmap: subscribe_sensor_data = false
+[INFO] [1776257590.222120899] [rtabmap.rtabmap]: rtabmap: subscribe_odom_info = false
+[INFO] [1776257590.222122651] [rtabmap.rtabmap]: rtabmap: subscribe_user_data = false
+[INFO] [1776257590.222124349] [rtabmap.rtabmap]: rtabmap: subscribe_scan = false
+[INFO] [1776257590.222126033] [rtabmap.rtabmap]: rtabmap: subscribe_scan_cloud = false
+[INFO] [1776257590.222127664] [rtabmap.rtabmap]: rtabmap: subscribe_scan_descriptor = false
+[INFO] [1776257590.222129413] [rtabmap.rtabmap]: rtabmap: topic_queue_size = 10
+[INFO] [1776257590.222131378] [rtabmap.rtabmap]: rtabmap: sync_queue_size  = 10
+[INFO] [1776257590.222133121] [rtabmap.rtabmap]: rtabmap: qos_image       = 0
+[INFO] [1776257590.222139215] [rtabmap.rtabmap]: rtabmap: qos_camera_info = 0
+[INFO] [1776257590.222141087] [rtabmap.rtabmap]: rtabmap: qos_scan        = 0
+[INFO] [1776257590.222142798] [rtabmap.rtabmap]: rtabmap: qos_odom        = 0
+[INFO] [1776257590.222144496] [rtabmap.rtabmap]: rtabmap: qos_user_data   = 0
+[INFO] [1776257590.222146099] [rtabmap.rtabmap]: rtabmap: approx_sync     = true
+[INFO] [1776257590.222150108] [rtabmap.rtabmap]: Setup depth callback
+[INFO] [1776257590.227364814] [rtabmap.rtabmap]: 
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257595.229159820] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257600.229009910] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257605.229101952] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257610.228997081] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257615.229032870] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257620.228975827] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257625.229039781] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257630.228941057] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257635.229052088] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257640.228914359] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257645.229174136] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257650.228998924] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257655.229107521] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257660.228917899] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257665.229061274] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257670.228936520] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257675.229175002] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257680.228978738] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257685.229187538] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257690.228920667] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257695.229032532] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257700.228927372] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257705.229041730] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257710.228900168] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257715.229069047] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257720.228956649] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257725.229031218] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257730.228922499] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257735.229077202] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257740.228931976] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257745.229032320] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257750.228954663] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257755.229082970] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257760.228921848] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257765.229100123] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257770.229033713] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257775.229138915] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257780.228952016] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257785.229024184] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257790.229017807] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257795.229044258] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257800.228988620] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257805.229147521] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257810.228962210] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257815.229052856] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257820.228958739] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257825.229079892] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257830.228902173] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[WARN] [1776257835.229041456] [rtabmap.rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (10) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /rtabmap/odom \
+   /stereo/left/image_rect \
+   /stereo/depth/image_rect \
+   /stereo/left/camera_info
+[INFO] [1776257836.468466817] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1776257836.470128343] [rtabmap.rtabmap]: Parameters are not saved (No configuration file provided...)
+rtabmap: Saving database/long-term memory... (located at /workspace/tools/rtabmap_tuning/results/runs/20260415T125307Z_00_baseline/rtabmap.db)
+rtabmap: Saving database/long-term memory...done! (located at /workspace/tools/rtabmap_tuning/results/runs/20260415T125307Z_00_baseline/rtabmap.db, 0 MB)

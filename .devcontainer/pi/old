@@ -1,0 +1,74 @@
+FROM ros:jazzy-ros-base
+
+# Noninteractive apt
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+	build-essential \
+	cmake \
+	git \
+	wget \
+	ca-certificates \
+	python3-pip \
+	python3-colcon-common-extensions \
+	python3-rosdep \
+	python3-vcstool \
+	lsb-release \
+	libopencv-dev \
+	python3-opencv \
+	pkg-config \
+	tini \
+	&& rm -rf /var/lib/apt/lists/*
+
+## Avoid installing system-wide Python packages via pip (PEP 668 errors on some images).
+## Use Debian packages installed above (python3-colcon-common-extensions, python3-opencv).
+
+# Initialize rosdep (container image at build-time)
+RUN rosdep init || true
+
+WORKDIR /workspace
+
+ENV PATH="/opt/ros/jazzy/bin:${PATH}"
+
+# Keep the container lightweight — workspace build happens at runtime via setup.sh
+
+# Ensure interactive shells source the system ROS environment so later
+# sourcing just the workspace overlay is sufficient.
+RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
+
+# Copy entrypoint script
+COPY .devcontainer/pi/app/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+WORKDIR /workspace
+
+# BlueOS Extension Metadata Labels
+LABEL version="1.0.0-beta.1"
+LABEL authors='[\
+    {\
+        "name": "Your Name",\
+        "email": "your.email@example.com"\
+    }\
+]'
+LABEL company='{\
+    "about": "Stereo vision processing extension for BlueOS",\
+    "name": "Your Organization",\
+    "email": "support@example.com"\
+}'
+LABEL readme="https://raw.githubusercontent.com/yourusername/mapping4/{tag}/README.md"
+LABEL links='{\
+    "github": "https://github.com/yourusername/mapping4",\
+    "documentation": "https://github.com/yourusername/mapping4/wiki"\
+}'
+LABEL type="device-integration"
+LABEL tags="mapping,ros2,stereo-vision,camera"
+LABEL permissions='{\
+    "HostConfig": {\
+        "Binds": [\
+            "/usr/blueos/extensions/stereo-processor:/app/data"\
+        ]\
+    }\
+}'
+
+ENTRYPOINT ["/usr/bin/tini", "--"]
+CMD ["/entrypoint.sh"]

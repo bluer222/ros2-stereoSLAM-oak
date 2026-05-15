@@ -1,0 +1,39 @@
+[0.801s] Invoking command in '/workspace/src/crab_detector': PYTHONPATH=/workspace/src/build/crab_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/crab_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/crab_detector build --build-base /workspace/src/build/crab_detector/build install --record /workspace/src/build/crab_detector/install.log --single-version-externally-managed install_data
+[1.381s] running egg_info
+[1.382s] creating ../build/crab_detector/crab_detector.egg-info
+[1.420s] writing ../build/crab_detector/crab_detector.egg-info/PKG-INFO
+[1.421s] writing dependency_links to ../build/crab_detector/crab_detector.egg-info/dependency_links.txt
+[1.422s] writing entry points to ../build/crab_detector/crab_detector.egg-info/entry_points.txt
+[1.422s] writing requirements to ../build/crab_detector/crab_detector.egg-info/requires.txt
+[1.423s] writing top-level names to ../build/crab_detector/crab_detector.egg-info/top_level.txt
+[1.423s] writing manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+[1.491s] reading manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+[1.493s] writing manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+[1.494s] running build
+[1.495s] running build_py
+[1.495s] creating /workspace/src/build/crab_detector/build
+[1.495s] creating /workspace/src/build/crab_detector/build/lib
+[1.495s] creating /workspace/src/build/crab_detector/build/lib/crab_detector
+[1.495s] copying crab_detector/__init__.py -> /workspace/src/build/crab_detector/build/lib/crab_detector
+[1.495s] copying crab_detector/crab_detector_node.py -> /workspace/src/build/crab_detector/build/lib/crab_detector
+[1.496s] running install
+[1.513s] running install_lib
+[1.546s] creating /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector
+[1.546s] copying /workspace/src/build/crab_detector/build/lib/crab_detector/__init__.py -> /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector
+[1.546s] copying /workspace/src/build/crab_detector/build/lib/crab_detector/crab_detector_node.py -> /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector
+[1.547s] byte-compiling /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector/__init__.py to __init__.cpython-312.pyc
+[1.548s] byte-compiling /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector/crab_detector_node.py to crab_detector_node.cpython-312.pyc
+[1.555s] running install_data
+[1.556s] creating /workspace/src/install/crab_detector/share/ament_index
+[1.556s] creating /workspace/src/install/crab_detector/share/ament_index/resource_index
+[1.557s] creating /workspace/src/install/crab_detector/share/ament_index/resource_index/packages
+[1.557s] copying resource/crab_detector -> /workspace/src/install/crab_detector/share/ament_index/resource_index/packages
+[1.557s] copying package.xml -> /workspace/src/install/crab_detector/share/crab_detector
+[1.557s] creating /workspace/src/install/crab_detector/share/crab_detector/launch
+[1.557s] copying launch/crab_detector.launch.py -> /workspace/src/install/crab_detector/share/crab_detector/launch
+[1.557s] running install_egg_info
+[1.596s] Copying ../build/crab_detector/crab_detector.egg-info to /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector-0.0.1-py3.12.egg-info
+[1.598s] running install_scripts
+[1.849s] Installing crab_detector_node script to /workspace/src/install/crab_detector/lib/crab_detector
+[1.850s] writing list of installed files to '/workspace/src/build/crab_detector/install.log'
+[1.930s] Invoked command in '/workspace/src/crab_detector' returned '0': PYTHONPATH=/workspace/src/build/crab_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/crab_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/crab_detector build --build-base /workspace/src/build/crab_detector/build install --record /workspace/src/build/crab_detector/install.log --single-version-externally-managed install_data

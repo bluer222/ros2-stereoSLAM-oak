@@ -1,0 +1,98 @@
+Copied from meeting notes:
+
+- [File system access](https://github.com/bluerobotics/BlueOS/issues/1640)
+    - User files / overrides / config
+    - Persistent (between extension starts) extension data should be placed on /usr/blueos/extension/<extension-name> as we WILL allow cleaning this up when uninstalling extensions (or by clicking a button).
+        - /usr/blueos/extension/<extension-name>/logs for logs
+            - We MAY rotate/cleanup these
+            - We should allow the user to configure log rotation, maybe with a config file in the logs folder
+        - /usr/blueos/extension/<extension-name>/data for data
+    - Avoid binding folders actively used by BlueOS or other extensions. If you need to change settings for others, prefer using their APIs.
+        - Extensionv2 will be exposed through BlueOS’s nginx at /extensionv2/extension-name
+- [Settings/permissions](https://blueos.cloud/docs/latest/development/extensions/#metadata-dockerfile)
+    - Overview
+        - Most of this section is relying on [Docker’s createContainer API](https://docs.docker.com/reference/api/engine/version/v1.43/#tag/Container/operation/ContainerCreate)
+        - Add only the necessary. 
+        - (?) Limit resources usage when possible
+    - CPU Architectures
+        - Try Making sure your extension supports the major archs: Armv7, Aarch64 and Amd64
+            - Recommended to build using the [deployment action](https://github.com/BlueOS-community/Deploy-BlueOS-Extension/tree/main)
+    - Hardware access permissions
+        - Binding `/dev` is usually enough
+        - Depending on the hardware, you may also need to set `privileged: true` or other bindings
+        - Avoiding trying to access in-use devices/ports (serial, IP, etc)
+            - Accessing a used port as root always succeeds! Prefer using a different user if you need direct hardware access
+              TODO: Will will document this better
+- Networking
+    - Networking can be handled in two ways
+        - [Exposing ports](https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/blob/master/Dockerfile#L23-L28)
+            - This allows Docker to dynamically find an unused port on the host and expose your extension on it. This approach is better in most cases as you can be sure your port will never clash with another extension’s
+        - [NetworkMode: Host](https://github.com/Williangalvani/BlueOS-VirtualHere/blob/master/Dockerfile#L10-L16https://github.com/Williangalvani/BlueOS-VirtualHere/blob/master/Dockerfile#L10-L16)
+            - This effectively runs your extension on the Pi’s network itself. Use this if you need a fixed (static) port or more “hardcore” access to the network. Keep in mind these ports may conflict with other extensions and core services
+                - Examples: Zerotier, VirtualHere, Dynamically allocated ports (for reasons)
+    - URL path(s) in BlueOS where the extension is served
+        - Extension (iframe)
+        - [Extensionv2](https://github.com/bluerobotics/BlueOS/pull/2815) (nginx proxy, requires relative paths) 
+        - Prefer using relative paths, Will will work on a guide (maybe a python script emulating the behavior)
+        - [Features restricted to secure contexts - Security on the web | MDN](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts/features_restricted_to_secure_contexts) 
+    - Internet access
+        - [Bandwidth restrictions](https://github.com/bluerobotics/BlueOS/issues/3008) 
+            - [How can I rate limit network traffic on a docker container - Stack Overflow](https://stackoverflow.com/questions/25497523/how-can-i-rate-limit-network-traffic-on-a-docker-container) 
+    - Resource limits
+        - Memory
+        - CPU usage
+        - Storage
+            - May require docker volumes, whereas we currently recommend binding instead
+            - Alternatively we could allow configuring some kind of warning when the user-specified storage amount is exceeded, and/or allow log/data files to be rotated by a threshold
+    - Defaults when omitted.
+        - CPU use cap
+            - Extensions WILL be limited to 1 cpu by default
+        - Memory cap
+            - Extensions WILL be limited to 512 mb ram by default
+        - [Hosts](https://github.com/bluerobotics/BlueOS/issues/2869): 
+            - blueos.local, host.docker.internal, blueos.internal WILL all point to the host system
+- Logging / recording
+    - File rotation
+    - Docker logs?
+    - Telemetry logs
+    - video / sensor logs
+- Version management
+    - Recommend SemVer
+    - Describe how to install dev versions
+    - Updating
+    - Installing a new version should allow you to keep the older one disabled instead of just uninstalling it.
+- Descriptions / documentation
+- Support (email / forum / FAQ / …)
+- Backend?
+    - General
+    - Python
+        - Commonwealth
+- Frontend?
+    - Communication
+        - Mavlink
+            - Prefer Mavlink2Rest over direct mavlink connections. This can be done either on the backend or frontend. For the frontend, eventually ssl can become an issue. Try using // on urls that include protocol (add more info here)
+        - ?
+    - Frameworks
+    - Styling
+    - Pages for embedding (e.g. as an iframe in Cockpit)
+- Integrating with BlueOS frontend
+    - Accessing BlueOS theme
+    - Header bar widgets / icons (?)
+        - Tracking dark/light mode
+        - Tracking pirate mode
+        - Adding your own?
+        - Adding widgets
+    - Available services
+        - HTTP server
+    - Sidebar listing
+        - `register_service`
+    - Vehicle setup (?)
+- Using BlueOS APIs
+    - Bag of Holding
+    - MAVLink endpoints
+- Communication between extensions
+    - API
+        - If your extension exposes an API, we recommend documenting it.
+        - Swagger is nice.
+- Autopilot safety
+    - Avoid running unnecessary intensive workloads when the vehicle is running

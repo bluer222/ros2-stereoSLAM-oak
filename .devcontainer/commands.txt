@@ -1,0 +1,38 @@
+source /workspace/install/local_setup.bash
+
+ros2 launch launch/launch_oak.py
+
+ros2 run stereo_processor no_rectify --ros-args -p calibration_file:=/workspace/SN15095.conf -p model_path:=/workspace/crestereo_iter5.onnx
+
+
+ros2 run post_util frame_rectifier --ros-args -p calibration_file:=/workspace/SN15095.conf
+
+ros2 run post_util frame_splitter
+
+ros2 run zed_streamer opencv_streamer
+
+ros2 launch launch/launch_all.py
+
+
+# 2. Add the key the modern way (not apt-key)
+sudo apt-get install -y curl gnupg
+curl -sSL https://isaac.download.nvidia.com/isaac-ros/repos.key | \
+    gpg --dearmor | \
+    sudo tee /usr/share/keyrings/isaac-ros-keyring.gpg > /dev/null
+
+# 3. Add the repo correctly
+echo "deb [signed-by=/usr/share/keyrings/isaac-ros-keyring.gpg] \
+    https://isaac.download.nvidia.com/isaac-ros/release-3 noble main" | \
+    sudo tee /etc/apt/sources.list.d/isaac-ros.list
+
+sudo apt-get update
+sudo apt-get install -y ros-jazzy-isaac-ros-ess ros-jazzy-isaac-ros-ess-models-install
+
+
+ros2 launch launch/dual_image_proc.py
+
+ros2 launch launch/nvidia.py
+
+ros2 run image_view disparity_view --ros-args -r image:=/stereo/disparity
+
+ros2 run rqt_reconfigure rqt_reconfigure

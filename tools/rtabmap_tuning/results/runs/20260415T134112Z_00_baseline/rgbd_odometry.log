@@ -1,0 +1,278 @@
+[37;1m2026-04-15 13:41:13.190 [31;1m[[37;1mTRANSPORT_UDPV4[31;1m Error] [37mAll whitelist interfaces were filtered out[34;1m -> Function [36mUDPv4Transport[m
+[37;1m2026-04-15 13:41:13.194 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mNo unicast locators to create unique flows[34;1m -> Function [36mcreateAndAssociateReceiverswithEndpoint[m
+[37;1m2026-04-15 13:41:13.194 [31;1m[[37;1mDATA_READER[31;1m Error] [37mProblem creating associated Reader[34;1m -> Function [36menable[m
+[INFO] [1776260473.215859426] [rtabmap.rgbd_odometry]: Odometry: frame_id               = base_link
+[INFO] [1776260473.215938491] [rtabmap.rgbd_odometry]: Odometry: odom_frame_id          = odom
+[INFO] [1776260473.215943093] [rtabmap.rgbd_odometry]: Odometry: publish_tf             = true
+[INFO] [1776260473.215945780] [rtabmap.rgbd_odometry]: Odometry: wait_for_transform     = 0.100000
+[INFO] [1776260473.215950266] [rtabmap.rgbd_odometry]: Odometry: log_to_rosout_level    = 4
+[INFO] [1776260473.215961548] [rtabmap.rgbd_odometry]: Odometry: initial_pose           = xyz=0.000000,0.000000,0.000000 rpy=0.000000,-0.000000,0.000000
+[INFO] [1776260473.215965700] [rtabmap.rgbd_odometry]: Odometry: ground_truth_frame_id  = 
+[INFO] [1776260473.215967600] [rtabmap.rgbd_odometry]: Odometry: ground_truth_base_frame_id = base_link
+[INFO] [1776260473.215969509] [rtabmap.rgbd_odometry]: Odometry: config_path            = 
+[INFO] [1776260473.215971292] [rtabmap.rgbd_odometry]: Odometry: publish_null_when_lost = true
+[INFO] [1776260473.215973245] [rtabmap.rgbd_odometry]: Odometry: publish_compressed_sensor_data = false
+[INFO] [1776260473.215975191] [rtabmap.rgbd_odometry]: Odometry: guess_frame_id         = 
+[INFO] [1776260473.215978361] [rtabmap.rgbd_odometry]: Odometry: guess_min_translation  = 0.000000
+[INFO] [1776260473.215980609] [rtabmap.rgbd_odometry]: Odometry: guess_min_rotation     = 0.000000
+[INFO] [1776260473.215982567] [rtabmap.rgbd_odometry]: Odometry: guess_min_time         = 0.000000
+[INFO] [1776260473.215984569] [rtabmap.rgbd_odometry]: Odometry: expected_update_rate   = 0.000000 Hz
+[INFO] [1776260473.215986567] [rtabmap.rgbd_odometry]: Odometry: max_update_rate        = 0.000000 Hz
+[INFO] [1776260473.215988489] [rtabmap.rgbd_odometry]: Odometry: min_update_rate        = 0.000000 Hz
+[INFO] [1776260473.215990527] [rtabmap.rgbd_odometry]: Odometry: wait_imu_to_init       = false
+[INFO] [1776260473.215992319] [rtabmap.rgbd_odometry]: Odometry: always_check_imu_tf    = true
+[INFO] [1776260473.215994042] [rtabmap.rgbd_odometry]: Odometry: sensor_data_compression_format = .jpg
+[INFO] [1776260473.215995725] [rtabmap.rgbd_odometry]: Odometry: sensor_data_parallel_compression = true
+[INFO] [1776260473.216003231] [rtabmap.rgbd_odometry]: Odometry: stereoParams_=0 visParams_=1 icpParams_=0
+[INFO] [1776260473.221402813] [rtabmap.rgbd_odometry]: RGBDOdometry: approx_sync    = true
+[INFO] [1776260473.221418544] [rtabmap.rgbd_odometry]: RGBDOdometry: approx_sync_max_interval = 0.000000
+[INFO] [1776260473.221422719] [rtabmap.rgbd_odometry]: RGBDOdometry: topic_queue_size = 10
+[INFO] [1776260473.221424789] [rtabmap.rgbd_odometry]: RGBDOdometry: sync_queue_size  = 5
+[INFO] [1776260473.221426577] [rtabmap.rgbd_odometry]: RGBDOdometry: qos             = 0
+[INFO] [1776260473.221428623] [rtabmap.rgbd_odometry]: RGBDOdometry: qos_camera_info = 0
+[INFO] [1776260473.221430412] [rtabmap.rgbd_odometry]: RGBDOdometry: subscribe_rgbd = false
+[INFO] [1776260473.221432184] [rtabmap.rgbd_odometry]: RGBDOdometry: rgbd_cameras   = 1
+[INFO] [1776260473.221433939] [rtabmap.rgbd_odometry]: RGBDOdometry: keep_color     = false
+[INFO] [1776260473.221435608] [rtabmap.rgbd_odometry]: RGBDOdometry: rgb_transport   = raw
+[INFO] [1776260473.221437303] [rtabmap.rgbd_odometry]: RGBDOdometry: depth_transport = raw
+[INFO] [1776260473.223277568] [rtabmap.rgbd_odometry]: 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260478.224704551] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260483.224668328] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260488.224646784] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260493.224542757] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260498.224748890] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260503.224601785] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260508.224766786] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260513.225519849] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260518.224663259] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260523.224618355] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260528.224626107] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260533.224533841] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260538.224652727] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260543.224544837] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260548.224613292] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260553.224671349] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260558.224704016] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260563.224541160] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260568.224621855] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260573.224608760] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260578.224630759] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260583.224822320] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260588.224696777] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260593.224613391] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260598.224727734] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260603.224598591] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260608.224696939] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260613.224603650] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260618.224761973] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260623.224584236] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260628.224767735] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260633.224544427] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260638.224748312] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260643.224526346] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260648.224707466] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260653.224559328] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260658.224624601] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260663.224529151] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260668.224743188] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260673.224558125] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260678.224749456] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260683.224596423] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260688.224679709] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260693.224585203] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260698.224662387] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260703.224575111] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[WARN] [1776260708.224673328] [rtabmap.rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=5):
+   /stereo/left/image_rect,
+   /stereo/depth/image_rect,
+   /stereo/left/camera_info
+[INFO] [1776260709.637779993] [rclcpp]: signal_handler(SIGINT/SIGTERM)

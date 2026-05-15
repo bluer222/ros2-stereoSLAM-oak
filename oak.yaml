@@ -1,0 +1,28 @@
+# Configuration for OAK-D S2 PoE alignment to RGB
+oak:
+  ros__parameters:
+    driver:
+      i_ip: "169.254.1.222"
+      i_enable_imu: false
+      i_external_calibration_path: "/workspace/calibration.json"
+    pipeline_gen:
+      i_pipeline_type: "RGBStereo" 
+    left:
+      i_width: 1280
+      i_height: 800
+      i_fps: 15.0
+    right:
+      i_width: 1280
+      i_height: 800
+      i_fps: 15.0
+    rgb:
+      i_publish_topic: true
+      i_width: 1280
+      i_height: 800
+      i_fps: 15.0
+    stereo:
+      i_publish_left_rect: true
+      i_publish_right_rect: true
+      # Alignment to RGB ensures left/right frames share the RGB camera perspective.
+      i_aligned: true 
+      i_board_socket_id: 0 #0 is rgb hopefully

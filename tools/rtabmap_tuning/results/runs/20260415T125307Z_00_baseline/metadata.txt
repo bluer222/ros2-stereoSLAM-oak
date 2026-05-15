@@ -1,0 +1,7 @@
+run_id=20260415T125307Z_00_baseline
+date_utc=20260415T125307Z
+preset=./presets/00_baseline.yaml
+bag=./bags/zed
+rate=1.0
+db_path=/workspace/tools/rtabmap_tuning/results/runs/20260415T125307Z_00_baseline/rtabmap.db
+rviz_config=/workspace/launch/zed_stereo_rtabmap.rviz

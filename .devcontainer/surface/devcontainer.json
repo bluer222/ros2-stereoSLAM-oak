@@ -1,0 +1,21 @@
+{
+  "name": "Surface",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "runArgs": [
+    "--device=nvidia.com/gpu=all",
+    "--privileged",
+    "--network=host",
+    "-e", "DISPLAY=${env:DISPLAY}",
+    "-e", "QT_QPA_PLATFORM=xcb",
+    "-v", "/tmp/.X11-unix:/tmp/.X11-unix",
+    "-v", "${env:HOME}/.Xauthority:/root/.Xauthority:ro",
+    "-v", "/dev:/dev",
+    "-v", "/dev/bus/usb:/dev/bus/usb"
+  ],
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "postCreateCommand": "bash /workspace/.devcontainer/surface/setupsurf.sh"
+}

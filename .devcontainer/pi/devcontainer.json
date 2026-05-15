@@ -1,0 +1,15 @@
+{
+  "name": "PI",
+  "build": {
+    "dockerfile": "../../Dockerfile",
+    "context": "../../"
+  },
+  "runArgs": [
+    "--privileged",
+    "--network=host",
+    "-v", "/dev:/dev",
+  ],
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "postCreateCommand": "bash /entrypoint.sh"
+}

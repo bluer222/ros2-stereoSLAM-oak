@@ -1,0 +1,14 @@
+[37;1m2026-04-15 13:47:12.412 [31;1m[[37;1mTRANSPORT_UDPV4[31;1m Error] [37mAll whitelist interfaces were filtered out[34;1m -> Function [36mUDPv4Transport[m
+[37;1m2026-04-15 13:47:12.414 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mNo unicast locators to create unique flows[34;1m -> Function [36mcreateAndAssociateReceiverswithEndpoint[m
+[37;1m2026-04-15 13:47:12.414 [31;1m[[37;1mDATA_READER[31;1m Error] [37mProblem creating associated Reader[34;1m -> Function [36menable[m
+[INFO] [1776260832.501422141] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776260832.501482062] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1776260832.512122854] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776260832.866886538] [rviz2]: Wait for service rtabmap/get_map_data
+[ERROR] [1776260833.867505754] [rviz2]: MapCloudDisplay: Cannot call "rtabmap/get_map_data" service. Tip: if rtabmap node is not in "rtabmap" namespace, you can change the "Download namespace" option.
+[INFO] [1776260833.972734714] [rviz2]: Wait for service rtabmap/get_map_data
+[ERROR] [1776260834.973460833] [rviz2]: MapCloudDisplay: Cannot call "rtabmap/get_map_data" service. Tip: if rtabmap node is not in "rtabmap" namespace, you can change the "Download namespace" option.
+[ERROR] [1776260834.983578838] [rviz2]: PluginlibFactory: The plugin for class 'rtabmap_rviz_plugins/Info' failed to load. Error: According to the loaded plugin descriptions the class rtabmap_rviz_plugins/Info with base class type rviz_common::Panel does not exist. Declared types are 
+[INFO] [1776260835.012903316] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776260835.029370134] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776260938.834993773] [rclcpp]: signal_handler(SIGINT/SIGTERM)

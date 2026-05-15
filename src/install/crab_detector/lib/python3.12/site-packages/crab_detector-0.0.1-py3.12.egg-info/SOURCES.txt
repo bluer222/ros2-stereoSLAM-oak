@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../build/crab_detector/crab_detector.egg-info/PKG-INFO
+../build/crab_detector/crab_detector.egg-info/SOURCES.txt
+../build/crab_detector/crab_detector.egg-info/dependency_links.txt
+../build/crab_detector/crab_detector.egg-info/entry_points.txt
+../build/crab_detector/crab_detector.egg-info/requires.txt
+../build/crab_detector/crab_detector.egg-info/top_level.txt
+../build/crab_detector/crab_detector.egg-info/zip-safe
+crab_detector/__init__.py
+crab_detector/crab_detector_node.py
+launch/crab_detector.launch.py
+resource/crab_detector

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: crab-detector
+Version: 0.0.1
+Summary: European Green Crab detection node for ROS2
+Maintainer: Developer
+Maintainer-email: developer@example.com
+License: Apache-2.0

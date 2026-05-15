@@ -1,0 +1,2 @@
+[console_scripts]
+crab_detector_node = crab_detector.crab_detector_node:main

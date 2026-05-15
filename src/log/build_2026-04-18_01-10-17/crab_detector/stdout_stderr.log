@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/crab_detector/crab_detector.egg-info
+writing ../build/crab_detector/crab_detector.egg-info/PKG-INFO
+writing dependency_links to ../build/crab_detector/crab_detector.egg-info/dependency_links.txt
+writing entry points to ../build/crab_detector/crab_detector.egg-info/entry_points.txt
+writing requirements to ../build/crab_detector/crab_detector.egg-info/requires.txt
+writing top-level names to ../build/crab_detector/crab_detector.egg-info/top_level.txt
+writing manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+reading manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+writing manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/src/build/crab_detector/build
+creating /workspace/src/build/crab_detector/build/lib
+creating /workspace/src/build/crab_detector/build/lib/crab_detector
+copying crab_detector/__init__.py -> /workspace/src/build/crab_detector/build/lib/crab_detector
+copying crab_detector/crab_detector_node.py -> /workspace/src/build/crab_detector/build/lib/crab_detector
+running install
+running install_lib
+creating /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector
+copying /workspace/src/build/crab_detector/build/lib/crab_detector/__init__.py -> /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector
+copying /workspace/src/build/crab_detector/build/lib/crab_detector/crab_detector_node.py -> /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector
+byte-compiling /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector/crab_detector_node.py to crab_detector_node.cpython-312.pyc
+running install_data
+creating /workspace/src/install/crab_detector/share/ament_index
+creating /workspace/src/install/crab_detector/share/ament_index/resource_index
+creating /workspace/src/install/crab_detector/share/ament_index/resource_index/packages
+copying resource/crab_detector -> /workspace/src/install/crab_detector/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/src/install/crab_detector/share/crab_detector
+creating /workspace/src/install/crab_detector/share/crab_detector/launch
+copying launch/crab_detector.launch.py -> /workspace/src/install/crab_detector/share/crab_detector/launch
+running install_egg_info
+Copying ../build/crab_detector/crab_detector.egg-info to /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector-0.0.1-py3.12.egg-info
+running install_scripts
+Installing crab_detector_node script to /workspace/src/install/crab_detector/lib/crab_detector
+writing list of installed files to '/workspace/src/build/crab_detector/install.log'

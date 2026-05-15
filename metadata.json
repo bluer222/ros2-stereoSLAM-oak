@@ -1,0 +1,32 @@
+{
+  "identifier": "yourusername.stereo-processor",
+  "name": "Stereo Processor",
+  "description": "ROS2-based stereo vision processing and mapping extension for BlueOS vehicles. Enables real-time 3D reconstruction and SLAM capabilities for autonomous underwater vehicles.",
+  "docker_image": "yourusername/blueos-stereo-processor",
+  "extension_logo": "https://raw.githubusercontent.com/yourusername/mapping4/{tag}/icon.svg",
+  "quality": "beta",
+  "tags": [
+    "mapping",
+    "ros2",
+    "stereo-vision",
+    "camera",
+    "slam"
+  ],
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com"
+    }
+  ],
+  "company": {
+    "name": "Your Organization",
+    "about": "Stereo vision processing extension for BlueOS",
+    "email": "support@example.com"
+  },
+  "links": {
+    "github": "https://github.com/yourusername/mapping4",
+    "documentation": "https://github.com/yourusername/mapping4/wiki"
+  },
+  "version": "1.0.0-beta.1",
+  "readme": "https://raw.githubusercontent.com/yourusername/mapping4/{tag}/README.md"
+}

@@ -1,0 +1,26 @@
+image_width: 1280
+image_height: 800
+camera_name: /rgb
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1302.89440979, 0.0, 631.09594727,
+         0.0, 1302.59972437, 400.31970215,
+         0.0, 0.0, 1.0]
+distortion_model: equidistant
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [12.93056993, -132.20213175, 582.54749236, -868.88730017]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0,
+         0.0, 1.0, 0.0,
+         0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1302.89440979, 0.0, 631.09594727, -0.00000000,
+         0.0, 1302.59972437, 400.31970215, 0.0,
+         0.0, 0.0, 1.0, 0.0]

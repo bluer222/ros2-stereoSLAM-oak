@@ -1,0 +1,14 @@
+{
+  "identifier": "yourusername.stereo-processor",
+  "name": "Stereo Processor",
+  "description": "ROS2-based stereo vision processing and 3D mapping system for BlueOS vehicles. Provides real-time stereo reconstruction from dual camera feeds.",
+  "docker_image": "yourusername/blueos-stereo-processor",
+  "docker_tag": "1.0.0",
+  "website": "https://github.com/yourusername/mapping4",
+  "author": "Your Name",
+  "maintainer": {
+    "name": "Your Organization",
+    "email": "support@example.com"
+  },
+  "changelog": "Initial release with ROS2 Jazzy support"
+}

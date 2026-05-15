@@ -1,0 +1,15 @@
+Run: 20260415T134112Z_00_baseline
+Preset: ./tools/rtabmap_tuning/presets/00_baseline.yaml
+Bag: ./tools/rtabmap_tuning/bags/library
+
+What improved?
+- 
+
+What got worse?
+- 
+
+Where did it fail?
+- 
+
+What should be tested next?
+- 

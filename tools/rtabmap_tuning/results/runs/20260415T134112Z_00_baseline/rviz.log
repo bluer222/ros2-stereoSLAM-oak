@@ -1,0 +1,14 @@
+[37;1m2026-04-15 13:41:16.963 [31;1m[[37;1mTRANSPORT_UDPV4[31;1m Error] [37mAll whitelist interfaces were filtered out[34;1m -> Function [36mUDPv4Transport[m
+[37;1m2026-04-15 13:41:16.965 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mNo unicast locators to create unique flows[34;1m -> Function [36mcreateAndAssociateReceiverswithEndpoint[m
+[37;1m2026-04-15 13:41:16.965 [31;1m[[37;1mDATA_READER[31;1m Error] [37mProblem creating associated Reader[34;1m -> Function [36menable[m
+[INFO] [1776260477.053515467] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776260477.053577233] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1776260477.066249200] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776260477.468748451] [rviz2]: Wait for service rtabmap/get_map_data
+[ERROR] [1776260478.469353314] [rviz2]: MapCloudDisplay: Cannot call "rtabmap/get_map_data" service. Tip: if rtabmap node is not in "rtabmap" namespace, you can change the "Download namespace" option.
+[INFO] [1776260478.574927377] [rviz2]: Wait for service rtabmap/get_map_data
+[INFO] [1776260479.292398980] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [1776260479.292555093] [rviz2]: MapCloudDisplay: Cannot call "rtabmap/get_map_data" service. Tip: if rtabmap node is not in "rtabmap" namespace, you can change the "Download namespace" option.
+[ERROR] [1776260479.295118264] [rviz2]: Could not load display config: could not create subscription: rcl node's context is invalid, at ./src/rcl/node.c:404
+terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+  what():  could not create subscription: rcl node's context is invalid, at ./src/rcl/node.c:404

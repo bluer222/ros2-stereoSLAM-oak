@@ -1,0 +1,24 @@
+[0.379s] Invoking command in '/workspace/src/crab_detector': PYTHONPATH=/workspace/src/build/crab_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/crab_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/crab_detector build --build-base /workspace/src/build/crab_detector/build install --record /workspace/src/build/crab_detector/install.log --single-version-externally-managed install_data
+[0.498s] running egg_info
+[0.504s] writing ../build/crab_detector/crab_detector.egg-info/PKG-INFO
+[0.504s] writing dependency_links to ../build/crab_detector/crab_detector.egg-info/dependency_links.txt
+[0.504s] writing entry points to ../build/crab_detector/crab_detector.egg-info/entry_points.txt
+[0.504s] writing requirements to ../build/crab_detector/crab_detector.egg-info/requires.txt
+[0.504s] writing top-level names to ../build/crab_detector/crab_detector.egg-info/top_level.txt
+[0.518s] reading manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+[0.519s] writing manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+[0.519s] running build
+[0.519s] running build_py
+[0.519s] copying crab_detector/crab_detector_node.py -> /workspace/src/build/crab_detector/build/lib/crab_detector
+[0.519s] running install
+[0.523s] running install_lib
+[0.531s] copying /workspace/src/build/crab_detector/build/lib/crab_detector/crab_detector_node.py -> /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector
+[0.531s] byte-compiling /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector/crab_detector_node.py to crab_detector_node.cpython-312.pyc
+[0.533s] running install_data
+[0.533s] running install_egg_info
+[0.541s] removing '/workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector-0.0.1-py3.12.egg-info' (and everything under it)
+[0.541s] Copying ../build/crab_detector/crab_detector.egg-info to /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector-0.0.1-py3.12.egg-info
+[0.541s] running install_scripts
+[0.596s] Installing crab_detector_node script to /workspace/src/install/crab_detector/lib/crab_detector
+[0.596s] writing list of installed files to '/workspace/src/build/crab_detector/install.log'
+[0.612s] Invoked command in '/workspace/src/crab_detector' returned '0': PYTHONPATH=/workspace/src/build/crab_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/crab_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/crab_detector build --build-base /workspace/src/build/crab_detector/build install --record /workspace/src/build/crab_detector/install.log --single-version-externally-managed install_data

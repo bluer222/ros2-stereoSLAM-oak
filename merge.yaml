@@ -1,0 +1,4 @@
+output_bags:
+  - uri: merged_bag
+    storage_id: mcap # or sqlite3
+    all_topics: true

@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/crab_detector/crab_detector.egg-info/PKG-INFO
+writing dependency_links to ../build/crab_detector/crab_detector.egg-info/dependency_links.txt
+writing entry points to ../build/crab_detector/crab_detector.egg-info/entry_points.txt
+writing requirements to ../build/crab_detector/crab_detector.egg-info/requires.txt
+writing top-level names to ../build/crab_detector/crab_detector.egg-info/top_level.txt
+reading manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+writing manifest file '../build/crab_detector/crab_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+copying crab_detector/crab_detector_node.py -> /workspace/src/build/crab_detector/build/lib/crab_detector
+running install
+running install_lib
+copying /workspace/src/build/crab_detector/build/lib/crab_detector/crab_detector_node.py -> /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector
+byte-compiling /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector/crab_detector_node.py to crab_detector_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../build/crab_detector/crab_detector.egg-info to /workspace/src/install/crab_detector/lib/python3.12/site-packages/crab_detector-0.0.1-py3.12.egg-info
+running install_scripts
+Installing crab_detector_node script to /workspace/src/install/crab_detector/lib/crab_detector
+writing list of installed files to '/workspace/src/build/crab_detector/install.log'
